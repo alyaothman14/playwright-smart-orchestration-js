@@ -1,0 +1,98 @@
+[
+  {
+    "test": "should allow me to add todo items",
+    "executionTime": 11.164
+  },
+  {
+    "test": "should allow me to mark all items as completed",
+    "executionTime": 21.195
+  },
+  {
+    "test": "should allow me to clear the complete state of all items",
+    "executionTime": 11.145
+  },
+  {
+    "test": "should allow me to mark items as complete",
+    "executionTime": 0.765
+  },
+  {
+    "test": "should allow me to un-mark items as complete",
+    "executionTime": 0.856
+  },
+  {
+    "test": "should allow me to edit an item",
+    "executionTime": 0.724
+  },
+  {
+    "test": "should clear text input field when an item is added",
+    "executionTime": 31.171
+  },
+  {
+    "test": "should append new items to the bottom of the list",
+    "executionTime": 41.253
+  },
+  {
+    "test": "should trim entered text",
+    "executionTime": 10.805
+  },
+  {
+    "test": "complete all checkbox should update state when items are completed / cleared",
+    "executionTime": 30.995
+  },
+  {
+    "test": "should cancel edits on escape",
+    "executionTime": 0.771
+  },
+  {
+    "test": "should display the current number of todo items",
+    "executionTime": 0.637
+  },
+  {
+    "test": "should display the correct text",
+    "executionTime": 0.704
+  },
+  {
+    "test": "should remove completed items when clicked",
+    "executionTime": 0.714
+  },
+  {
+    "test": "should be hidden when there are no items that are completed",
+    "executionTime": 0.739
+  },
+  {
+    "test": "should persist its data",
+    "executionTime": 0.771
+  },
+  {
+    "test": "should allow me to display active items",
+    "executionTime": 0.702
+  },
+  {
+    "test": "should save edits on blur",
+    "executionTime": 30.965
+  },
+  {
+    "test": "should respect the back button",
+    "executionTime": 25.793
+  },
+  {
+    "test": "should allow me to display all items",
+    "executionTime": 0.863
+  },
+  {
+    "test": "should hide other controls when editing",
+    "executionTime": 60.719
+  },
+  {
+    "test": "should highlight the currently applied filter",
+    "executionTime": 5.714
+  },
+  {
+    "test": "should remove the item if an empty text string was entered",
+    "executionTime": 40.815
+  },
+  {
+    "test": "should allow me to display completed items",
+    "executionTime": 41.081
+  }
+]
