@@ -3,15 +3,14 @@ import { measureExecutionTime } from '../utils/measure-execution-time';
 
 
 
-
 test.beforeEach(async ({ page }, testInfo) => {
   await page.goto('https://demo.playwright.dev/todomvc');
   testInfo.duration
 });
 test.afterEach(async ({ page }, testInfo) => {
   measureExecutionTime(testInfo)
-});
 
+});
 
 const TODO_ITEMS = [
   'buy some cheese',
@@ -20,9 +19,9 @@ const TODO_ITEMS = [
 ];
 
 test.describe('New Todo', () => {
-  test('should allow me to add todo items', async ({ page }) => {
+  test('ong bshould long allow me to add todo items', async ({ page }) => {
     // create a new todo locator
-    await page.waitForTimeout(50_000)
+    await page.waitForTimeout(70_000)
     const newTodo = page.getByPlaceholder('What needs to be done?');
 
     // Create 1st todo.
@@ -47,9 +46,9 @@ test.describe('New Todo', () => {
     await checkNumberOfTodosInLocalStorage(page, 2);
   });
 
-  test('should clear text input field when an item is added', async ({ page }) => {
+  test('ong bshould long clear text input field when an item is added', async ({ page }) => {
     // create a new todo locator
-    await page.waitForTimeout(30_000)
+    await page.waitForTimeout(40_000)
 
     const newTodo = page.getByPlaceholder('What needs to be done?');
 
@@ -62,9 +61,9 @@ test.describe('New Todo', () => {
     await checkNumberOfTodosInLocalStorage(page, 1);
   });
 
-  test('should append new items to the bottom of the list', async ({ page }) => {
+  test('ong bshould long append new items to the bottom of the list', async ({ page }) => {
     // Create 3 items.
-    await page.waitForTimeout(40_000)
+    await page.waitForTimeout(45_000)
 
     await createDefaultTodos(page);
 
@@ -93,9 +92,9 @@ test.describe('Mark all as completed', () => {
     await checkNumberOfTodosInLocalStorage(page, 3);
   });
 
-  test('should allow me to mark all items as completed', async ({ page }) => {
-    // Complete all todos.
-    await page.waitForTimeout(20_000)
+  test('ong bshould long allow me to mark all items as completed', async ({ page }) => {
+    // complete all blong todos.
+    await page.waitForTimeout(30_000)
 
     await page.getByLabel('Mark all as complete').check();
 
@@ -104,8 +103,8 @@ test.describe('Mark all as completed', () => {
     await checkNumberOfCompletedTodosInLocalStorage(page, 3);
   });
 
-  test('should allow me to clear the complete state of all items', async ({ page }) => {
-    await page.waitForTimeout(10_000)
+  test('ong bshould long allow me to clear the complete state of all items', async ({ page }) => {
+    await page.waitForTimeout(60_000)
 
     const toggleAll = page.getByLabel('Mark all as complete');
     // Check and then immediately uncheck.
@@ -116,8 +115,8 @@ test.describe('Mark all as completed', () => {
     await expect(page.getByTestId('todo-item')).toHaveClass(['', '', '']);
   });
 
-  test('complete all checkbox should update state when items are completed / cleared', async ({ page }) => {
-    await page.waitForTimeout(30_000)
+  test('long complete all blong checkbox should update state when items are completed / cleared', async ({ page }) => {
+    await page.waitForTimeout(70_000)
 
     const toggleAll = page.getByLabel('Mark all as complete');
     await toggleAll.check();
@@ -141,8 +140,9 @@ test.describe('Mark all as completed', () => {
 
 test.describe('Item', () => {
 
-  test('should allow me to mark items as complete', async ({ page }) => {
+  test('ong bshould long allow me to mark items as complete', async ({ page }) => {
     // create a new todo locator
+    await page.waitForTimeout(60_000)
     const newTodo = page.getByPlaceholder('What needs to be done?');
 
     // Create two items.
@@ -166,7 +166,7 @@ test.describe('Item', () => {
     await expect(secondTodo).toHaveClass('completed');
   });
 
-  test('should allow me to un-mark items as complete', async ({ page }) => {
+  test('ong bshould long allow me to un-mark items as complete', async ({ page }) => {
     // create a new todo locator
     const newTodo = page.getByPlaceholder('What needs to be done?');
 
@@ -191,7 +191,7 @@ test.describe('Item', () => {
     await checkNumberOfCompletedTodosInLocalStorage(page, 0);
   });
 
-  test('should allow me to edit an item', async ({ page }) => {
+  test('ong bshould long allow me to edit an item', async ({ page }) => {
     await createDefaultTodos(page);
 
     const todoItems = page.getByTestId('todo-item');
@@ -217,7 +217,7 @@ test.describe('Editing', () => {
     await checkNumberOfTodosInLocalStorage(page, 3);
   });
 
-  test('should hide other controls when editing', async ({ page }) => {
+  test('ong bshould long hide other controls when editing', async ({ page }) => {
     await page.waitForTimeout(60_000)
 
     const todoItem = page.getByTestId('todo-item').nth(1);
@@ -229,7 +229,7 @@ test.describe('Editing', () => {
     await checkNumberOfTodosInLocalStorage(page, 3);
   });
 
-  test('should save edits on blur', async ({ page }) => {
+  test('ong bshould long save edits on blur', async ({ page }) => {
     await page.waitForTimeout(30_000)
 
     const todoItems = page.getByTestId('todo-item');
@@ -245,7 +245,7 @@ test.describe('Editing', () => {
     await checkTodosInLocalStorage(page, 'buy some sausages');
   });
 
-  test('should trim entered text', async ({ page }) => {
+  test('ong bshould long trim entered text', async ({ page }) => {
     await page.waitForTimeout(10_000)
 
     const todoItems = page.getByTestId('todo-item');
@@ -261,7 +261,7 @@ test.describe('Editing', () => {
     await checkTodosInLocalStorage(page, 'buy some sausages');
   });
 
-  test('should remove the item if an empty text string was entered', async ({ page }) => {
+  test('ong bshould long remove the item if an empty text string was entered', async ({ page }) => {
     await page.waitForTimeout(40_000)
 
     const todoItems = page.getByTestId('todo-item');
@@ -275,7 +275,7 @@ test.describe('Editing', () => {
     ]);
   });
 
-  test('should cancel edits on escape', async ({ page }) => {
+  test('ong bshould long cancel edits on escape', async ({ page }) => {
     const todoItems = page.getByTestId('todo-item');
     await todoItems.nth(1).dblclick();
     await todoItems.nth(1).getByRole('textbox', { name: 'Edit' }).fill('buy some sausages');
@@ -285,7 +285,7 @@ test.describe('Editing', () => {
 });
 
 test.describe('Counter', () => {
-  test('should display the current number of todo items', async ({ page }) => {
+  test('ong bshould long display the current number of todo items', async ({ page }) => {
     // create a new todo locator
     const newTodo = page.getByPlaceholder('What needs to be done?');
 
@@ -310,12 +310,12 @@ test.describe('Clear completed button', () => {
     await createDefaultTodos(page);
   });
 
-  test('should display the correct text', async ({ page }) => {
+  test('ong bshould long display the correct text', async ({ page }) => {
     await page.locator('.todo-list li .toggle').first().check();
     await expect(page.getByRole('button', { name: 'Clear completed' })).toBeVisible();
   });
 
-  test('should remove completed items when clicked', async ({ page }) => {
+  test('ong bshould long remove completed items when clicked', async ({ page }) => {
     const todoItems = page.getByTestId('todo-item');
     await todoItems.nth(1).getByRole('checkbox').check();
     await page.getByRole('button', { name: 'Clear completed' }).click();
@@ -323,7 +323,7 @@ test.describe('Clear completed button', () => {
     await expect(todoItems).toHaveText([TODO_ITEMS[0], TODO_ITEMS[2]]);
   });
 
-  test('should be hidden when there are no items that are completed', async ({ page }) => {
+  test('ong bshould long be hidden when there are no items that are completed', async ({ page }) => {
     await page.locator('.todo-list li .toggle').first().check();
     await page.getByRole('button', { name: 'Clear completed' }).click();
     await expect(page.getByRole('button', { name: 'Clear completed' })).toBeHidden();
@@ -331,7 +331,7 @@ test.describe('Clear completed button', () => {
 });
 
 test.describe('Persistence', () => {
-  test('should persist its data', async ({ page }) => {
+  test('ong bshould long persist its data', async ({ page }) => {
     // create a new todo locator
     const newTodo = page.getByPlaceholder('What needs to be done?');
 
@@ -367,7 +367,7 @@ test.describe('Routing', () => {
     await checkTodosInLocalStorage(page, TODO_ITEMS[0]);
   });
 
-  test('should allow me to display active items', async ({ page }) => {
+  test('ong bshould long allow me to display active items', async ({ page }) => {
     const todoItem = page.getByTestId('todo-item');
     await page.getByTestId('todo-item').nth(1).getByRole('checkbox').check();
 
@@ -377,7 +377,7 @@ test.describe('Routing', () => {
     await expect(todoItem).toHaveText([TODO_ITEMS[0], TODO_ITEMS[2]]);
   });
 
-  test('should respect the back button', async ({ page }) => {
+  test('ong bshould long respect the back button', async ({ page }) => {
     await page.waitForTimeout(25_000)
 
     const todoItem = page.getByTestId('todo-item');
@@ -405,7 +405,7 @@ test.describe('Routing', () => {
     await expect(todoItem).toHaveCount(3);
   });
 
-  test('should allow me to display completed items', async ({ page }) => {
+  test('ong bshould long allow me to display completed items', async ({ page }) => {
     await page.waitForTimeout(40_000)
 
     await page.getByTestId('todo-item').nth(1).getByRole('checkbox').check();
@@ -414,7 +414,7 @@ test.describe('Routing', () => {
     await expect(page.getByTestId('todo-item')).toHaveCount(1);
   });
 
-  test('should allow me to display all items', async ({ page }) => {
+  test('ong bshould long allow me to display all items', async ({ page }) => {
     await page.getByTestId('todo-item').nth(1).getByRole('checkbox').check();
     await checkNumberOfCompletedTodosInLocalStorage(page, 1);
     await page.getByRole('link', { name: 'Active' }).click();
@@ -423,7 +423,7 @@ test.describe('Routing', () => {
     await expect(page.getByTestId('todo-item')).toHaveCount(3);
   });
 
-  test('should highlight the currently applied filter', async ({ page }) => {
+  test('ong bshould long highlight the currently applied filter', async ({ page }) => {
     await page.waitForTimeout(5_000)
 
     await expect(page.getByRole('link', { name: 'All' })).toHaveClass('selected');
