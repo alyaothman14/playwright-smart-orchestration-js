@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
 function smartOrchestrationGitHub(shard) {
     // Read the JSON file with test results
-    var results = JSON.parse(fs.readFileSync('test_results.json', 'utf-8'));
+    var results = JSON.parse(fs.readFileSync('test_execuction_results.json', 'utf-8'));
     // Sort the results based on execution time in ascending order
     var sortedResults = results.sort(function (a, b) { return a.execution_time - b.execution_time; });
     // Group tests into categories (slow and medium)

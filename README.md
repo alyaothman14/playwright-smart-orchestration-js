@@ -14,6 +14,8 @@ To tackle this problem, I have implemented a smart orchestration mechanism that 
 
 2. Smart Orchestration: Implemented a smart orchestration algorithm that distributes slow tests (taking more than 30 seconds) across multiple workers. This helps balance the workload and allocate tests strategically, resulting in optimized test execution.
 
+3. In Github action workflow, run measure execution if any changes are detected in the /tests folder and update the test_execuction_results.json
+
 ## Repo Details
 
 The use of smart orchestration could be found in the github workflow

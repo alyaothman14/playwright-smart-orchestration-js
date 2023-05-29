@@ -20,7 +20,7 @@ export function measureExecutionTime(testInfo): void {
 
         // Read the existing JSON file
         let jsonData: TestResult[] = [];
-        let fileName = `test_results_${process.env.SHARD_INDEX}.json`
+        let fileName = `test_execuction_results_${process.env.SHARD_INDEX}.json`
 
         if (fs.existsSync(fileName)) {
             const existingData = fs.readFileSync(fileName, 'utf8');

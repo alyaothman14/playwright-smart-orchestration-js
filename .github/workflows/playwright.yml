@@ -47,8 +47,8 @@ jobs:
       if: steps.folder_changes.outputs.changed == 'true'
       uses: actions/upload-artifact@v2
       with:
-        name: test_results
-        path: test_results_${{ matrix.shardIndex }}.json
+        name: test_execuction_results
+        path: test_execuction_results_${{ matrix.shardIndex }}.json
   combine_test_execution_result:
     timeout-minutes: 60
     runs-on: ubuntu-latest
@@ -59,22 +59,22 @@ jobs:
       with:
         fetch-depth: 0
     - run: |
-        if [[ -f test_results.json ]]; then
-            rm test_results.json
+        if [[ -f test_execuction_results.json ]]; then
+            rm test_execuction_results.json
         fi 
     - name: Download JSON File
       uses: actions/download-artifact@v3
       with:
-        name: test_results
+        name: test_execuction_results
         path: .  
     - uses: sergeysova/jq-action@v2
       with:
-        cmd: jq -s '[.[][]]' test_results_*.json > test_results.json
-    - run: rm test_results_*.json  
+        cmd: jq -s '[.[][]]' test_execuction_results_*.json > test_execuction_results.json
+    - run: rm test_execuction_results_*.json  
     - uses: actions/upload-artifact@v2
       with:
-        name: test_results
-        path: test_results.json              
+        name: test_execuction_results
+        path: test_execuction_results.json              
     - name: Commit Json File
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
@@ -95,7 +95,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: actions/download-artifact@v3
       with:
-        name: test_results
+        name: test_execuction_results
         path: .
     - uses: actions/setup-node@v3
       with:

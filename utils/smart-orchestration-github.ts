@@ -20,7 +20,7 @@ const MEDIUM_TEST_THRESHOLD = 20
 
 function smartOrchestrationGitHub(shard: number): string {
     // Read the JSON file with test results
-    const results = JSON.parse(fs.readFileSync('test_results.json', 'utf-8')) as TestResult[];
+    const results = JSON.parse(fs.readFileSync('test_execuction_results.json', 'utf-8')) as TestResult[];
 
     // Group tests into categories (slow, medium, fast)
     const testCategories: TestCategories = {
