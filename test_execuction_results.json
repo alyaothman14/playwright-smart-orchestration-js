@@ -1,1994 +1,666 @@
 [
   {
     "test": "long should long allow me to mark all items as completed",
-    "executionTime": 31.05
+    "executionTime": 31.344
   },
   {
     "test": "long should long clear text input field when an item is added",
-    "executionTime": 40.891
+    "executionTime": 41.119
   },
   {
     "test": "long should long append new items to the bottom of the list",
-    "executionTime": 45.997
+    "executionTime": 46.284
   },
   {
     "test": "llong should long allow me to add todo items",
-    "executionTime": 65.908
+    "executionTime": 66.17
   },
   {
     "test": "long should long allow me to un-mark items as complete",
-    "executionTime": 0.459
+    "executionTime": 0.642
   },
   {
     "test": "long should long allow me to edit an item",
-    "executionTime": 0.423
+    "executionTime": 0.565
   },
   {
     "test": "long should long allow me to clear the complete state of all items",
-    "executionTime": 60.456
+    "executionTime": 60.634
   },
   {
     "test": "long should long allow me to mark items as complete",
-    "executionTime": 60.437
+    "executionTime": 60.57
   },
   {
     "test": "long complete all along along checkbox should update state when items are completed / cleared",
-    "executionTime": 70.525
+    "executionTime": 70.704
   },
   {
     "test": "long should long trim entered text",
-    "executionTime": 10.421
+    "executionTime": 10.53
   },
   {
     "test": "long should long cancel edits on escape",
-    "executionTime": 0.393
+    "executionTime": 0.574
   },
   {
     "test": "long should long display the current number of todo items",
-    "executionTime": 0.32
-  },
-  {
-    "test": "long should long display the correct text",
-    "executionTime": 0.389
-  },
-  {
-    "test": "long should long remove completed items when clicked",
-    "executionTime": 0.419
-  },
-  {
-    "test": "long should long be hidden when there are no items that are completed",
-    "executionTime": 0.419
-  },
-  {
-    "test": "long should long persist its data",
-    "executionTime": 0.408
-  },
-  {
-    "test": "long should long allow me to display active items",
-    "executionTime": 0.416
-  },
-  {
-    "test": "long should long save edits on blur",
-    "executionTime": 30.424
-  },
-  {
-    "test": "long should long hide other controls when editing",
-    "executionTime": 60.431
-  },
-  {
-    "test": "long should long allow me to display all items",
-    "executionTime": 0.524
-  },
-  {
-    "test": "long should long highlight the currently applied filter",
-    "executionTime": 5.419
-  },
-  {
-    "test": "long should long respect the back button",
-    "executionTime": 25.554
-  },
-  {
-    "test": "long should long remove the item if an empty text string was entered",
-    "executionTime": 40.412
-  },
-  {
-    "test": "long should long allow me to display completed items",
-    "executionTime": 40.452
-  },
-  {
-    "test": "long should ablong clear text input field when an item is added",
-    "executionTime": 40.324
-  },
-  {
-    "test": "long should ablong allow me to mark all items as completed",
-    "executionTime": 30.394
-  },
-  {
-    "test": "long should ablong append new items to the bottom of the list",
-    "executionTime": 45.363
-  },
-  {
-    "test": "llong should ablong allow me to add todo items",
-    "executionTime": 65.339
-  },
-  {
-    "test": "long should ablong allow me to un-mark items as complete",
-    "executionTime": 0.432
-  },
-  {
-    "test": "long should ablong allow me to edit an item",
-    "executionTime": 0.423
-  },
-  {
-    "test": "long should ablong allow me to clear the complete state of all items",
-    "executionTime": 60.445
-  },
-  {
-    "test": "long should ablong allow me to mark items as complete",
-    "executionTime": 60.468
-  },
-  {
-    "test": "long should ablong hide other controls when editing",
-    "executionTime": 60.386
-  },
-  {
-    "test": "long complete all ablong along checkbox should update state when items are completed / cleared",
-    "executionTime": 70.504
-  },
-  {
-    "test": "long should ablong cancel edits on escape",
-    "executionTime": 0.412
-  },
-  {
-    "test": "long should ablong display the current number of todo items",
-    "executionTime": 0.346
-  },
-  {
-    "test": "long should ablong display the correct text",
-    "executionTime": 0.371
-  },
-  {
-    "test": "long should ablong remove completed items when clicked",
-    "executionTime": 0.407
-  },
-  {
-    "test": "long should ablong be hidden when there are no items that are completed",
-    "executionTime": 0.399
-  },
-  {
-    "test": "long should ablong persist its data",
-    "executionTime": 0.436
-  },
-  {
-    "test": "long should ablong allow me to display active items",
-    "executionTime": 0.413
-  },
-  {
-    "test": "long should ablong trim entered text",
-    "executionTime": 10.439
-  },
-  {
-    "test": "long should ablong save edits on blur",
-    "executionTime": 30.381
-  },
-  {
-    "test": "long should ablong allow me to display all items",
-    "executionTime": 0.539
-  },
-  {
-    "test": "long should ablong highlight the currently applied filter",
-    "executionTime": 5.427
-  },
-  {
-    "test": "long should ablong respect the back button",
-    "executionTime": 25.519
-  },
-  {
-    "test": "long should ablong remove the item if an empty text string was entered",
-    "executionTime": 40.422
-  },
-  {
-    "test": "long should ablong allow me to display completed items",
-    "executionTime": 40.444
-  },
-  {
-    "test": "long should abblong clear text input field when an item is added",
-    "executionTime": 40.282
-  },
-  {
-    "test": "long should abblong allow me to mark all items as completed",
-    "executionTime": 30.427
-  },
-  {
-    "test": "long should abblong append new items to the bottom of the list",
-    "executionTime": 45.355
-  },
-  {
-    "test": "long should abblong allow me to un-mark items as complete",
-    "executionTime": 0.432
-  },
-  {
-    "test": "long should abblong allow me to edit an item",
-    "executionTime": 0.391
-  },
-  {
-    "test": "llong should abblong allow me to add todo items",
-    "executionTime": 65.306
-  },
-  {
-    "test": "long should abblong save edits on blur",
-    "executionTime": 30.395
-  },
-  {
-    "test": "long should abblong trim entered text",
-    "executionTime": 10.394
-  },
-  {
-    "test": "long should abblong allow me to clear the complete state of all items",
-    "executionTime": 60.458
-  },
-  {
-    "test": "long should abblong cancel edits on escape",
-    "executionTime": 0.426
-  },
-  {
-    "test": "long should abblong display the current number of todo items",
-    "executionTime": 0.301
-  },
-  {
-    "test": "long should abblong display the correct text",
-    "executionTime": 0.385
-  },
-  {
-    "test": "long should abblong allow me to mark items as complete",
-    "executionTime": 60.421
-  },
-  {
-    "test": "long should abblong hide other controls when editing",
-    "executionTime": 60.371
-  },
-  {
-    "test": "long should abblong remove the item if an empty text string was entered",
-    "executionTime": 40.378
-  },
-  {
-    "test": "long should abblong allow me to display active items",
-    "executionTime": 1.445
-  },
-  {
-    "test": "long should abblong persist its data",
-    "executionTime": 1.443
-  },
-  {
-    "test": "long should abblong be hidden when there are no items that are completed",
-    "executionTime": 1.507
-  },
-  {
-    "test": "long should abblong remove completed items when clicked",
-    "executionTime": 1.501
-  },
-  {
-    "test": "long should abblong allow me to display all items",
-    "executionTime": 1.07
-  },
-  {
-    "test": "long should abblong highlight the currently applied filter",
-    "executionTime": 5.954
-  },
-  {
-    "test": "long should abblong respect the back button",
-    "executionTime": 26.064
-  },
-  {
-    "test": "long should abblong allow me to display completed items",
-    "executionTime": 40.744
-  },
-  {
-    "test": "ong bshould long clear text input field when an item is added",
-    "executionTime": 40.313
-  },
-  {
-    "test": "ong bshould long allow me to mark all items as completed",
-    "executionTime": 30.425
-  },
-  {
-    "test": "ong bshould long append new items to the bottom of the list",
-    "executionTime": 45.534
-  },
-  {
-    "test": "ong bshould long allow me to add todo items",
-    "executionTime": 70.504
-  },
-  {
-    "test": "ong bshould long allow me to un-mark items as complete",
-    "executionTime": 0.622
-  },
-  {
-    "test": "ong bshould long allow me to edit an item",
-    "executionTime": 0.439
-  },
-  {
-    "test": "ong bshould long allow me to clear the complete state of all items",
-    "executionTime": 60.495
-  },
-  {
-    "test": "ong bshould long allow me to mark items as complete",
-    "executionTime": 60.627
-  },
-  {
-    "test": "ong bshould long hide other controls when editing",
-    "executionTime": 60.433
-  },
-  {
-    "test": "ong bshould long save edits on blur",
-    "executionTime": 30.458
-  },
-  {
-    "test": "ong bshould long cancel edits on escape",
-    "executionTime": 0.432
-  },
-  {
-    "test": "ong bshould long display the current number of todo items",
-    "executionTime": 0.332
-  },
-  {
-    "test": "ong bshould long display the correct text",
-    "executionTime": 0.429
-  },
-  {
-    "test": "ong bshould long remove completed items when clicked",
-    "executionTime": 0.44
-  },
-  {
-    "test": "ong bshould long be hidden when there are no items that are completed",
     "executionTime": 0.43
   },
   {
-    "test": "ong bshould long persist its data",
-    "executionTime": 0.456
-  },
-  {
-    "test": "ong bshould long allow me to display active items",
-    "executionTime": 0.437
-  },
-  {
-    "test": "long complete all blong checkbox should update state when items are completed / cleared",
-    "executionTime": 70.871
-  },
-  {
-    "test": "ong bshould long trim entered text",
-    "executionTime": 10.445
-  },
-  {
-    "test": "ong bshould long allow me to display all items",
-    "executionTime": 0.589
-  },
-  {
-    "test": "ong bshould long highlight the currently applied filter",
-    "executionTime": 5.452
-  },
-  {
-    "test": "short should short allow me to add todo items",
-    "executionTime": 0.342
-  },
-  {
-    "test": "short should short clear text input field when an item is added",
-    "executionTime": 0.328
-  },
-  {
-    "test": "short should short append new items to the bottom of the list",
-    "executionTime": 0.358
-  },
-  {
-    "test": "short should short allow me to mark all items as completed",
-    "executionTime": 0.399
-  },
-  {
-    "test": "short should short allow me to clear the complete state of all items",
-    "executionTime": 0.438
-  },
-  {
-    "test": "complete all clong short checkbox should update state when items are completed / cleared",
-    "executionTime": 0.543
-  },
-  {
-    "test": "short should short allow me to mark items as complete",
-    "executionTime": 0.406
-  },
-  {
-    "test": "short should short allow me to un-mark items as complete",
-    "executionTime": 0.441
-  },
-  {
-    "test": "short should short allow me to edit an item",
-    "executionTime": 0.444
-  },
-  {
-    "test": "short should short hide other controls when editing",
-    "executionTime": 0.397
-  },
-  {
-    "test": "short should short save edits on blur",
-    "executionTime": 0.447
-  },
-  {
-    "test": "short should short trim entered text",
-    "executionTime": 0.424
-  },
-  {
-    "test": "short should short remove the item if an empty text string was entered",
-    "executionTime": 0.408
-  },
-  {
-    "test": "short should short cancel edits on escape",
-    "executionTime": 0.405
-  },
-  {
-    "test": "short should short display the current number of todo items",
-    "executionTime": 0.327
-  },
-  {
-    "test": "short should short display the correct text",
-    "executionTime": 0.392
-  },
-  {
-    "test": "short should short remove completed items when clicked",
-    "executionTime": 0.433
-  },
-  {
-    "test": "short should short be hidden when there are no items that are completed",
-    "executionTime": 0.438
-  },
-  {
-    "test": "short should short persist its data",
-    "executionTime": 0.434
-  },
-  {
-    "test": "short should short allow me to display active items",
-    "executionTime": 0.431
-  },
-  {
-    "test": "short should short respect the back button",
-    "executionTime": 0.577
-  },
-  {
-    "test": "short should short allow me to display completed items",
-    "executionTime": 0.45
-  },
-  {
-    "test": "short should short allow me to display all items",
-    "executionTime": 0.517
-  },
-  {
-    "test": "short should short highlight the currently applied filter",
-    "executionTime": 0.422
-  },
-  {
-    "test": "ong bshould long respect the back button",
-    "executionTime": 25.557
-  },
-  {
-    "test": "ong bshould long remove the item if an empty text string was entered",
-    "executionTime": 40.467
-  },
-  {
-    "test": "ong bshould long allow me to display completed items",
-    "executionTime": 40.489
-  },
-  {
-    "test": "should clear text input field when an item is added",
-    "executionTime": 30.342
-  },
-  {
-    "test": "should allow me to mark all items as completed",
-    "executionTime": 20.441
-  },
-  {
-    "test": "should allow me to clear the complete state of all items",
-    "executionTime": 10.501
-  },
-  {
-    "test": "should allow me to mark items as complete",
-    "executionTime": 0.419
-  },
-  {
-    "test": "should allow me to add todo items",
-    "executionTime": 50.358
-  },
-  {
-    "test": "should append new items to the bottom of the list",
-    "executionTime": 40.423
-  },
-  {
-    "test": "complete all checkbox should update state when items are completed / cleared",
-    "executionTime": 30.538
-  },
-  {
-    "test": "long should long allow me to mark all items as completed",
-    "executionTime": 33.217
-  },
-  {
-    "test": "long should long clear text input field when an item is added",
-    "executionTime": 43.061
-  },
-  {
-    "test": "long should long append new items to the bottom of the list",
-    "executionTime": 48.22
-  },
-  {
-    "test": "llong should long allow me to add todo items",
-    "executionTime": 68.067
-  },
-  {
-    "test": "long should long allow me to un-mark items as complete",
-    "executionTime": 0.568
-  },
-  {
-    "test": "long should long allow me to edit an item",
-    "executionTime": 0.528
-  },
-  {
-    "test": "long should long allow me to clear the complete state of all items",
-    "executionTime": 60.602
-  },
-  {
-    "test": "long should long allow me to mark items as complete",
-    "executionTime": 60.55
-  },
-  {
-    "test": "long complete all along along checkbox should update state when items are completed / cleared",
-    "executionTime": 70.668
-  },
-  {
-    "test": "long should long trim entered text",
-    "executionTime": 10.584
-  },
-  {
-    "test": "long should long cancel edits on escape",
-    "executionTime": 0.589
-  },
-  {
-    "test": "long should long display the current number of todo items",
-    "executionTime": 0.41
-  },
-  {
     "test": "long should long display the correct text",
-    "executionTime": 0.47
+    "executionTime": 0.478
   },
   {
     "test": "long should long remove completed items when clicked",
-    "executionTime": 0.595
-  },
-  {
-    "test": "long should long be hidden when there are no items that are completed",
-    "executionTime": 0.549
-  },
-  {
-    "test": "long should long persist its data",
     "executionTime": 0.566
   },
   {
+    "test": "long should long be hidden when there are no items that are completed",
+    "executionTime": 0.619
+  },
+  {
+    "test": "long should long persist its data",
+    "executionTime": 0.589
+  },
+  {
     "test": "long should long allow me to display active items",
-    "executionTime": 0.56
+    "executionTime": 0.556
   },
   {
     "test": "long should long save edits on blur",
-    "executionTime": 30.564
+    "executionTime": 30.589
   },
   {
     "test": "long should long hide other controls when editing",
-    "executionTime": 60.534
-  },
-  {
-    "test": "should allow me to un-mark items as complete",
-    "executionTime": 0.597
-  },
-  {
-    "test": "should allow me to edit an item",
-    "executionTime": 0.539
+    "executionTime": 60.558
   },
   {
     "test": "long should long respect the back button",
-    "executionTime": 25.691
-  },
-  {
-    "test": "long should long remove the item if an empty text string was entered",
-    "executionTime": 40.585
-  },
-  {
-    "test": "long should long allow me to display completed items",
-    "executionTime": 40.605
-  },
-  {
-    "test": "should trim entered text",
-    "executionTime": 10.869
-  },
-  {
-    "test": "should cancel edits on escape",
-    "executionTime": 0.706
-  },
-  {
-    "test": "should display the current number of todo items",
-    "executionTime": 0.4
-  },
-  {
-    "test": "should display the correct text",
-    "executionTime": 0.498
-  },
-  {
-    "test": "should remove completed items when clicked",
-    "executionTime": 0.558
-  },
-  {
-    "test": "should be hidden when there are no items that are completed",
-    "executionTime": 0.554
-  },
-  {
-    "test": "should persist its data",
-    "executionTime": 0.526
-  },
-  {
-    "test": "should allow me to display active items",
-    "executionTime": 0.627
-  },
-  {
-    "test": "should save edits on blur",
-    "executionTime": 30.671
-  },
-  {
-    "test": "should hide other controls when editing",
-    "executionTime": 60.543
-  },
-  {
-    "test": "should allow me to display all items",
-    "executionTime": 0.745
-  },
-  {
-    "test": "should respect the back button",
     "executionTime": 25.72
   },
   {
-    "test": "should highlight the currently applied filter",
-    "executionTime": 5.563
-  },
-  {
-    "test": "should remove the item if an empty text string was entered",
-    "executionTime": 40.872
-  },
-  {
-    "test": "should allow me to display completed items",
-    "executionTime": 40.59
-  },
-  {
-    "test": "long should abbzlong clear text input field when an item is added",
-    "executionTime": 40.417
-  },
-  {
-    "test": "long should abbzlong allow me to mark all items as completed",
-    "executionTime": 30.548
-  },
-  {
-    "test": "long should abbzlong append new items to the bottom of the list",
-    "executionTime": 45.511
-  },
-  {
-    "test": "long should abbzlong allow me to un-mark items as complete",
-    "executionTime": 0.572
-  },
-  {
-    "test": "long should abbzlong allow me to edit an item",
-    "executionTime": 0.578
-  },
-  {
-    "test": "llong should abbzlong allow me to add todo items",
-    "executionTime": 65.421
-  },
-  {
-    "test": "long should abbzlong save edits on blur",
-    "executionTime": 30.591
-  },
-  {
-    "test": "long should abbzlong allow me to clear the complete state of all items",
-    "executionTime": 60.625
-  },
-  {
-    "test": "long should abbzlong trim entered text",
-    "executionTime": 10.653
-  },
-  {
-    "test": "long should abbzlong cancel edits on escape",
-    "executionTime": 0.537
-  },
-  {
-    "test": "long should abbzlong display the current number of todo items",
-    "executionTime": 0.444
-  },
-  {
-    "test": "long should abbzlong display the correct text",
-    "executionTime": 0.48
-  },
-  {
-    "test": "long should abbzlong remove completed items when clicked",
-    "executionTime": 0.546
-  },
-  {
-    "test": "long should abbzlong be hidden when there are no items that are completed",
-    "executionTime": 0.529
-  },
-  {
-    "test": "long should abbzlong persist its data",
-    "executionTime": 0.527
-  },
-  {
-    "test": "long should abbzlong allow me to display active items",
-    "executionTime": 0.55
-  },
-  {
-    "test": "long should abbzlong allow me to mark items as complete",
-    "executionTime": 60.549
-  },
-  {
-    "test": "long should abbzlong hide other controls when editing",
-    "executionTime": 60.521
-  },
-  {
-    "test": "long should abbzlong allow me to display all items",
-    "executionTime": 0.678
-  },
-  {
-    "test": "long should abbzlong highlight the currently applied filter",
-    "executionTime": 5.554
-  },
-  {
-    "test": "long should abbzlong respect the back button",
-    "executionTime": 25.705
-  },
-  {
-    "test": "long should abbzlong remove the item if an empty text string was entered",
-    "executionTime": 40.543
-  },
-  {
-    "test": "long should abbzlong allow me to display completed items",
-    "executionTime": 40.586
-  },
-  {
-    "test": "long should long allow me to display all items",
-    "executionTime": 1.701
-  },
-  {
-    "test": "long should long highlight the currently applied filter",
-    "executionTime": 6.578
-  },
-  {
-    "test": "long should ablong allow me to mark all items as completed",
-    "executionTime": 30.451
-  },
-  {
-    "test": "long should ablong clear text input field when an item is added",
-    "executionTime": 41.277
-  },
-  {
-    "test": "long should ablong append new items to the bottom of the list",
-    "executionTime": 45.445
-  },
-  {
-    "test": "llong should ablong allow me to add todo items",
-    "executionTime": 66.322
-  },
-  {
-    "test": "long should ablong allow me to un-mark items as complete",
-    "executionTime": 0.486
-  },
-  {
-    "test": "long should ablong allow me to edit an item",
-    "executionTime": 0.468
-  },
-  {
-    "test": "long should ablong allow me to clear the complete state of all items",
-    "executionTime": 60.645
-  },
-  {
-    "test": "long should ablong allow me to mark items as complete",
-    "executionTime": 60.464
-  },
-  {
-    "test": "long complete all ablong along checkbox should update state when items are completed / cleared",
-    "executionTime": 70.553
-  },
-  {
-    "test": "long should ablong trim entered text",
-    "executionTime": 10.471
-  },
-  {
-    "test": "long should ablong cancel edits on escape",
-    "executionTime": 0.453
-  },
-  {
-    "test": "long should ablong display the current number of todo items",
-    "executionTime": 0.333
-  },
-  {
-    "test": "long should ablong display the correct text",
-    "executionTime": 0.403
-  },
-  {
-    "test": "long should ablong remove completed items when clicked",
-    "executionTime": 0.474
-  },
-  {
-    "test": "long should ablong be hidden when there are no items that are completed",
-    "executionTime": 0.481
-  },
-  {
-    "test": "long should ablong persist its data",
-    "executionTime": 0.473
-  },
-  {
-    "test": "long should ablong allow me to display active items",
-    "executionTime": 0.451
-  },
-  {
-    "test": "long should ablong hide other controls when editing",
-    "executionTime": 60.532
-  },
-  {
-    "test": "long should ablong save edits on blur",
-    "executionTime": 30.614
-  },
-  {
-    "test": "long should ablong allow me to display all items",
-    "executionTime": 0.609
-  },
-  {
-    "test": "long should ablong highlight the currently applied filter",
-    "executionTime": 5.456
-  },
-  {
-    "test": "long should ablong respect the back button",
-    "executionTime": 25.599
-  },
-  {
-    "test": "long should ablong remove the item if an empty text string was entered",
-    "executionTime": 40.477
-  },
-  {
-    "test": "long should ablong allow me to display completed items",
-    "executionTime": 40.505
-  },
-  {
-    "test": "long should abblong clear text input field when an item is added",
-    "executionTime": 40.309
-  },
-  {
-    "test": "long should abblong append new items to the bottom of the list",
-    "executionTime": 45.404
-  },
-  {
-    "test": "long should abblong allow me to mark all items as completed",
-    "executionTime": 30.448
-  },
-  {
-    "test": "long should abblong allow me to un-mark items as complete",
-    "executionTime": 0.485
-  },
-  {
-    "test": "long should abblong allow me to edit an item",
-    "executionTime": 0.51
-  },
-  {
-    "test": "llong should abblong allow me to add todo items",
-    "executionTime": 65.458
-  },
-  {
-    "test": "long should abblong save edits on blur",
-    "executionTime": 30.656
-  },
-  {
-    "test": "long should abblong trim entered text",
-    "executionTime": 10.558
-  },
-  {
-    "test": "long should abblong allow me to clear the complete state of all items",
-    "executionTime": 60.509
-  },
-  {
-    "test": "long should abblong cancel edits on escape",
-    "executionTime": 0.499
-  },
-  {
-    "test": "long should abblong display the current number of todo items",
-    "executionTime": 0.382
-  },
-  {
-    "test": "long should abblong display the correct text",
-    "executionTime": 0.424
-  },
-  {
-    "test": "long should abblong remove completed items when clicked",
-    "executionTime": 0.48
-  },
-  {
-    "test": "long should abblong be hidden when there are no items that are completed",
-    "executionTime": 0.436
-  },
-  {
-    "test": "long should abblong persist its data",
-    "executionTime": 0.442
-  },
-  {
-    "test": "long should abblong allow me to display active items",
-    "executionTime": 0.438
-  },
-  {
-    "test": "long should abblong allow me to mark items as complete",
-    "executionTime": 60.458
-  },
-  {
-    "test": "long should abblong hide other controls when editing",
-    "executionTime": 60.608
-  },
-  {
-    "test": "long should abblong allow me to display all items",
-    "executionTime": 0.597
-  },
-  {
-    "test": "long should abblong highlight the currently applied filter",
-    "executionTime": 5.552
-  },
-  {
-    "test": "long should abblong respect the back button",
-    "executionTime": 25.597
-  },
-  {
-    "test": "long should abblong remove the item if an empty text string was entered",
-    "executionTime": 40.485
-  },
-  {
-    "test": "long should abblong allow me to display completed items",
-    "executionTime": 40.517
-  },
-  {
-    "test": "ong bshould long clear text input field when an item is added",
-    "executionTime": 40.304
-  },
-  {
-    "test": "ong bshould long append new items to the bottom of the list",
-    "executionTime": 45.435
-  },
-  {
-    "test": "ong bshould long allow me to mark all items as completed",
-    "executionTime": 30.46
-  },
-  {
-    "test": "ong bshould long allow me to add todo items",
-    "executionTime": 70.35
-  },
-  {
-    "test": "ong bshould long allow me to un-mark items as complete",
-    "executionTime": 0.48
-  },
-  {
-    "test": "ong bshould long allow me to edit an item",
-    "executionTime": 0.435
-  },
-  {
-    "test": "ong bshould long allow me to clear the complete state of all items",
-    "executionTime": 60.465
-  },
-  {
-    "test": "ong bshould long allow me to mark items as complete",
-    "executionTime": 60.472
-  },
-  {
-    "test": "long complete all blong checkbox should update state when items are completed / cleared",
-    "executionTime": 70.644
-  },
-  {
-    "test": "ong bshould long hide other controls when editing",
-    "executionTime": 60.424
-  },
-  {
-    "test": "ong bshould long trim entered text",
-    "executionTime": 10.501
-  },
-  {
-    "test": "ong bshould long save edits on blur",
-    "executionTime": 30.556
-  },
-  {
-    "test": "ong bshould long remove the item if an empty text string was entered",
-    "executionTime": 40.508
-  },
-  {
-    "test": "ong bshould long display the correct text",
-    "executionTime": 1.481
-  },
-  {
-    "test": "ong bshould long display the current number of todo items",
-    "executionTime": 1.45
-  },
-  {
-    "test": "ong bshould long cancel edits on escape",
-    "executionTime": 1.593
-  },
-  {
-    "test": "ong bshould long remove completed items when clicked",
-    "executionTime": 1.71
-  },
-  {
-    "test": "ong bshould long be hidden when there are no items that are completed",
-    "executionTime": 1.221
-  },
-  {
-    "test": "ong bshould long persist its data",
-    "executionTime": 1.238
-  },
-  {
-    "test": "ong bshould long allow me to display active items",
-    "executionTime": 1.194
-  },
-  {
-    "test": "ong bshould long allow me to display all items",
-    "executionTime": 0.938
-  },
-  {
-    "test": "short should short allow me to add todo items",
-    "executionTime": 0.407
-  },
-  {
-    "test": "short should short clear text input field when an item is added",
-    "executionTime": 0.342
-  },
-  {
-    "test": "short should short append new items to the bottom of the list",
-    "executionTime": 0.43
-  },
-  {
-    "test": "short should short allow me to mark all items as completed",
-    "executionTime": 0.452
-  },
-  {
-    "test": "short should short allow me to clear the complete state of all items",
-    "executionTime": 0.514
-  },
-  {
-    "test": "complete all clong short checkbox should update state when items are completed / cleared",
-    "executionTime": 0.544
-  },
-  {
-    "test": "short should short allow me to mark items as complete",
-    "executionTime": 0.456
-  },
-  {
-    "test": "short should short allow me to un-mark items as complete",
-    "executionTime": 0.452
-  },
-  {
-    "test": "short should short allow me to edit an item",
-    "executionTime": 0.448
-  },
-  {
-    "test": "short should short hide other controls when editing",
-    "executionTime": 0.46
-  },
-  {
-    "test": "ong bshould long highlight the currently applied filter",
-    "executionTime": 5.76
-  },
-  {
-    "test": "short should short save edits on blur",
-    "executionTime": 0.566
-  },
-  {
-    "test": "short should short trim entered text",
-    "executionTime": 0.721
-  },
-  {
-    "test": "short should short remove the item if an empty text string was entered",
-    "executionTime": 0.687
-  },
-  {
-    "test": "short should short cancel edits on escape",
-    "executionTime": 0.675
-  },
-  {
-    "test": "short should short display the current number of todo items",
-    "executionTime": 0.491
-  },
-  {
-    "test": "short should short display the correct text",
-    "executionTime": 0.611
-  },
-  {
-    "test": "short should short remove completed items when clicked",
-    "executionTime": 0.628
-  },
-  {
-    "test": "short should short be hidden when there are no items that are completed",
-    "executionTime": 0.625
-  },
-  {
-    "test": "short should short persist its data",
-    "executionTime": 0.686
-  },
-  {
-    "test": "short should short allow me to display active items",
-    "executionTime": 0.666
-  },
-  {
-    "test": "short should short respect the back button",
-    "executionTime": 0.753
-  },
-  {
-    "test": "short should short allow me to display completed items",
-    "executionTime": 0.604
-  },
-  {
-    "test": "short should short allow me to display all items",
-    "executionTime": 0.723
-  },
-  {
-    "test": "short should short highlight the currently applied filter",
-    "executionTime": 0.64
-  },
-  {
-    "test": "ong bshould long respect the back button",
-    "executionTime": 26.201
-  },
-  {
-    "test": "ong bshould long allow me to display completed items",
-    "executionTime": 40.95
-  },
-  {
-    "test": "should clear text input field when an item is added",
-    "executionTime": 30.402
-  },
-  {
-    "test": "should allow me to clear the complete state of all items",
-    "executionTime": 10.656
-  },
-  {
-    "test": "should allow me to add todo items",
-    "executionTime": 50.434
-  },
-  {
-    "test": "should allow me to mark items as complete",
-    "executionTime": 0.526
-  },
-  {
-    "test": "should allow me to mark all items as completed",
-    "executionTime": 20.611
-  },
-  {
-    "test": "should allow me to un-mark items as complete",
-    "executionTime": 0.532
-  },
-  {
-    "test": "should allow me to edit an item",
-    "executionTime": 0.6
-  },
-  {
-    "test": "should append new items to the bottom of the list",
-    "executionTime": 40.485
-  },
-  {
-    "test": "should trim entered text",
-    "executionTime": 10.483
-  },
-  {
-    "test": "complete all checkbox should update state when items are completed / cleared",
-    "executionTime": 30.564
-  },
-  {
-    "test": "should cancel edits on escape",
-    "executionTime": 0.485
-  },
-  {
-    "test": "should display the current number of todo items",
-    "executionTime": 0.396
-  },
-  {
-    "test": "should display the correct text",
-    "executionTime": 0.46
-  },
-  {
-    "test": "should remove completed items when clicked",
-    "executionTime": 0.515
-  },
-  {
-    "test": "should be hidden when there are no items that are completed",
-    "executionTime": 0.488
-  },
-  {
-    "test": "should persist its data",
-    "executionTime": 0.532
-  },
-  {
-    "test": "should allow me to display active items",
-    "executionTime": 0.52
-  },
-  {
-    "test": "should save edits on blur",
-    "executionTime": 30.526
-  },
-  {
-    "test": "should respect the back button",
-    "executionTime": 25.624
-  },
-  {
-    "test": "should allow me to display all items",
-    "executionTime": 0.581
-  },
-  {
-    "test": "should remove the item if an empty text string was entered",
-    "executionTime": 40.48
-  },
-  {
-    "test": "should highlight the currently applied filter",
-    "executionTime": 5.55
-  },
-  {
-    "test": "should hide other controls when editing",
-    "executionTime": 60.584
-  },
-  {
-    "test": "should allow me to display completed items",
-    "executionTime": 40.57
-  },
-  {
-    "test": "long should abbzlong clear text input field when an item is added",
-    "executionTime": 40.328
-  },
-  {
-    "test": "long should abbzlong append new items to the bottom of the list",
-    "executionTime": 45.45
-  },
-  {
-    "test": "llong should abbzlong allow me to add todo items",
-    "executionTime": 65.4
-  },
-  {
-    "test": "long should long allow me to mark all items as completed",
-    "executionTime": 31.064
-  },
-  {
-    "test": "long should long clear text input field when an item is added",
-    "executionTime": 40.918
-  },
-  {
-    "test": "long should long append new items to the bottom of the list",
-    "executionTime": 46.026
-  },
-  {
-    "test": "llong should long allow me to add todo items",
-    "executionTime": 65.919
-  },
-  {
-    "test": "long should long allow me to un-mark items as complete",
-    "executionTime": 0.448
-  },
-  {
-    "test": "long should long allow me to edit an item",
-    "executionTime": 0.453
-  },
-  {
-    "test": "long should long allow me to clear the complete state of all items",
-    "executionTime": 60.451
-  },
-  {
-    "test": "long should long allow me to mark items as complete",
-    "executionTime": 60.44
-  },
-  {
-    "test": "long complete all along along checkbox should update state when items are completed / cleared",
-    "executionTime": 70.525
-  },
-  {
-    "test": "long should long trim entered text",
-    "executionTime": 10.415
-  },
-  {
-    "test": "long should long cancel edits on escape",
-    "executionTime": 0.454
-  },
-  {
-    "test": "long should long display the current number of todo items",
-    "executionTime": 0.311
-  },
-  {
-    "test": "long should long display the correct text",
-    "executionTime": 0.367
-  },
-  {
-    "test": "long should long remove completed items when clicked",
-    "executionTime": 0.403
-  },
-  {
-    "test": "long should long be hidden when there are no items that are completed",
-    "executionTime": 0.435
-  },
-  {
-    "test": "long should long persist its data",
-    "executionTime": 0.416
-  },
-  {
-    "test": "long should long allow me to display active items",
-    "executionTime": 0.397
-  },
-  {
-    "test": "long should long save edits on blur",
-    "executionTime": 30.426
-  },
-  {
-    "test": "long should long hide other controls when editing",
-    "executionTime": 60.381
-  },
-  {
-    "test": "long should long allow me to display all items",
-    "executionTime": 0.539
-  },
-  {
-    "test": "long should long highlight the currently applied filter",
-    "executionTime": 5.44
-  },
-  {
-    "test": "long should long respect the back button",
-    "executionTime": 25.664
-  },
-  {
     "test": "long should long remove the item if an empty text string was entered",
-    "executionTime": 40.424
+    "executionTime": 40.611
+  },
+  {
+    "test": "long should long allow me to display all items",
+    "executionTime": 1.438
+  },
+  {
+    "test": "long should long highlight the currently applied filter",
+    "executionTime": 6.448
   },
   {
     "test": "long should long allow me to display completed items",
-    "executionTime": 40.491
+    "executionTime": 41.32
   },
   {
     "test": "long should ablong clear text input field when an item is added",
-    "executionTime": 40.276
-  },
-  {
-    "test": "long should ablong allow me to mark all items as completed",
-    "executionTime": 30.413
+    "executionTime": 40.382
   },
   {
     "test": "long should ablong append new items to the bottom of the list",
-    "executionTime": 45.369
+    "executionTime": 45.464
   },
   {
     "test": "llong should ablong allow me to add todo items",
-    "executionTime": 65.325
+    "executionTime": 66.01
+  },
+  {
+    "test": "long should ablong allow me to mark all items as completed",
+    "executionTime": 30.504
   },
   {
     "test": "long should ablong allow me to un-mark items as complete",
-    "executionTime": 0.438
-  },
-  {
-    "test": "long should ablong allow me to edit an item",
-    "executionTime": 0.428
-  },
-  {
-    "test": "long should ablong allow me to clear the complete state of all items",
-    "executionTime": 60.391
-  },
-  {
-    "test": "long should ablong allow me to mark items as complete",
-    "executionTime": 60.435
-  },
-  {
-    "test": "long should ablong hide other controls when editing",
-    "executionTime": 60.395
-  },
-  {
-    "test": "long complete all ablong along checkbox should update state when items are completed / cleared",
-    "executionTime": 70.492
-  },
-  {
-    "test": "long should ablong cancel edits on escape",
-    "executionTime": 0.424
-  },
-  {
-    "test": "long should ablong display the current number of todo items",
-    "executionTime": 0.303
-  },
-  {
-    "test": "long should ablong display the correct text",
-    "executionTime": 0.378
-  },
-  {
-    "test": "long should ablong remove completed items when clicked",
-    "executionTime": 0.436
-  },
-  {
-    "test": "long should ablong be hidden when there are no items that are completed",
-    "executionTime": 0.415
-  },
-  {
-    "test": "long should ablong trim entered text",
-    "executionTime": 10.436
-  },
-  {
-    "test": "long should ablong save edits on blur",
-    "executionTime": 30.429
-  },
-  {
-    "test": "long should abbzlong allow me to mark all items as completed",
-    "executionTime": 30.465
-  },
-  {
-    "test": "long should abbzlong allow me to un-mark items as complete",
-    "executionTime": 0.445
-  },
-  {
-    "test": "long should abbzlong allow me to edit an item",
-    "executionTime": 0.45
-  },
-  {
-    "test": "long should ablong remove the item if an empty text string was entered",
-    "executionTime": 40.432
-  },
-  {
-    "test": "long should abbzlong allow me to clear the complete state of all items",
-    "executionTime": 60.505
-  },
-  {
-    "test": "long should abbzlong save edits on blur",
-    "executionTime": 30.506
-  },
-  {
-    "test": "long should abbzlong allow me to mark items as complete",
-    "executionTime": 60.523
-  },
-  {
-    "test": "long should abbzlong cancel edits on escape",
-    "executionTime": 0.408
-  },
-  {
-    "test": "long should abbzlong display the current number of todo items",
-    "executionTime": 0.32
-  },
-  {
-    "test": "long should abbzlong display the correct text",
-    "executionTime": 0.379
-  },
-  {
-    "test": "long should abbzlong remove completed items when clicked",
-    "executionTime": 0.418
-  },
-  {
-    "test": "long should abbzlong be hidden when there are no items that are completed",
-    "executionTime": 0.444
-  },
-  {
-    "test": "long should abbzlong trim entered text",
-    "executionTime": 10.469
-  },
-  {
-    "test": "long should abbzlong persist its data",
-    "executionTime": 0.546
-  },
-  {
-    "test": "long should abbzlong allow me to display active items",
-    "executionTime": 0.661
-  },
-  {
-    "test": "long should abbzlong hide other controls when editing",
-    "executionTime": 60.4
-  },
-  {
-    "test": "long should abbzlong allow me to display all items",
-    "executionTime": 0.553
-  },
-  {
-    "test": "long should abbzlong highlight the currently applied filter",
-    "executionTime": 5.442
-  },
-  {
-    "test": "long should abbzlong respect the back button",
-    "executionTime": 25.647
-  },
-  {
-    "test": "long should abbzlong remove the item if an empty text string was entered",
-    "executionTime": 40.436
-  },
-  {
-    "test": "long should abbzlong allow me to display completed items",
-    "executionTime": 40.563
-  },
-  {
-    "test": "long should ablong persist its data",
-    "executionTime": 1.276
-  },
-  {
-    "test": "long should ablong allow me to display active items",
-    "executionTime": 1.345
-  },
-  {
-    "test": "long should ablong allow me to display all items",
-    "executionTime": 0.694
-  },
-  {
-    "test": "long should ablong highlight the currently applied filter",
-    "executionTime": 5.533
-  },
-  {
-    "test": "long should ablong respect the back button",
-    "executionTime": 26.393
-  },
-  {
-    "test": "long should ablong allow me to display completed items",
-    "executionTime": 41.37
-  },
-  {
-    "test": "long should abblong clear text input field when an item is added",
-    "executionTime": 40.294
-  },
-  {
-    "test": "llong should abblong allow me to add todo items",
-    "executionTime": 65.372
-  },
-  {
-    "test": "long should abblong append new items to the bottom of the list",
-    "executionTime": 45.433
-  },
-  {
-    "test": "long should abblong allow me to mark all items as completed",
-    "executionTime": 30.465
-  },
-  {
-    "test": "long should abblong allow me to un-mark items as complete",
-    "executionTime": 0.589
-  },
-  {
-    "test": "long should abblong allow me to edit an item",
-    "executionTime": 0.622
-  },
-  {
-    "test": "long should abblong save edits on blur",
-    "executionTime": 30.562
-  },
-  {
-    "test": "long should abblong allow me to clear the complete state of all items",
-    "executionTime": 60.464
-  },
-  {
-    "test": "long should abblong trim entered text",
-    "executionTime": 10.448
-  },
-  {
-    "test": "long should abblong cancel edits on escape",
-    "executionTime": 0.439
-  },
-  {
-    "test": "long should abblong display the current number of todo items",
-    "executionTime": 0.333
-  },
-  {
-    "test": "long should abblong display the correct text",
-    "executionTime": 0.382
-  },
-  {
-    "test": "long should abblong remove completed items when clicked",
-    "executionTime": 0.44
-  },
-  {
-    "test": "long should abblong be hidden when there are no items that are completed",
-    "executionTime": 0.419
-  },
-  {
-    "test": "long should abblong persist its data",
-    "executionTime": 0.429
-  },
-  {
-    "test": "long should abblong allow me to display active items",
-    "executionTime": 0.451
-  },
-  {
-    "test": "long should abblong allow me to mark items as complete",
-    "executionTime": 60.459
-  },
-  {
-    "test": "long should abblong hide other controls when editing",
-    "executionTime": 60.575
-  },
-  {
-    "test": "long should abblong allow me to display all items",
-    "executionTime": 0.604
-  },
-  {
-    "test": "long should abblong highlight the currently applied filter",
-    "executionTime": 5.482
-  },
-  {
-    "test": "long should abblong respect the back button",
-    "executionTime": 25.546
-  },
-  {
-    "test": "long should abblong remove the item if an empty text string was entered",
-    "executionTime": 40.46
-  },
-  {
-    "test": "long should abblong allow me to display completed items",
-    "executionTime": 40.493
-  },
-  {
-    "test": "ong bshould long clear text input field when an item is added",
-    "executionTime": 40.308
-  },
-  {
-    "test": "ong bshould long append new items to the bottom of the list",
-    "executionTime": 45.406
-  },
-  {
-    "test": "ong bshould long allow me to mark all items as completed",
-    "executionTime": 30.444
-  },
-  {
-    "test": "ong bshould long allow me to add todo items",
-    "executionTime": 70.364
-  },
-  {
-    "test": "ong bshould long allow me to un-mark items as complete",
-    "executionTime": 0.454
-  },
-  {
-    "test": "ong bshould long allow me to edit an item",
-    "executionTime": 0.428
-  },
-  {
-    "test": "ong bshould long allow me to clear the complete state of all items",
-    "executionTime": 60.499
-  },
-  {
-    "test": "ong bshould long allow me to mark items as complete",
-    "executionTime": 60.43
-  },
-  {
-    "test": "long complete all blong checkbox should update state when items are completed / cleared",
-    "executionTime": 70.551
-  },
-  {
-    "test": "ong bshould long trim entered text",
-    "executionTime": 10.472
-  },
-  {
-    "test": "ong bshould long cancel edits on escape",
-    "executionTime": 0.444
-  },
-  {
-    "test": "ong bshould long display the current number of todo items",
-    "executionTime": 0.326
-  },
-  {
-    "test": "ong bshould long hide other controls when editing",
-    "executionTime": 60.435
-  },
-  {
-    "test": "ong bshould long display the correct text",
-    "executionTime": 0.425
-  },
-  {
-    "test": "ong bshould long be hidden when there are no items that are completed",
-    "executionTime": 0.558
-  },
-  {
-    "test": "ong bshould long remove completed items when clicked",
-    "executionTime": 0.654
-  },
-  {
-    "test": "ong bshould long allow me to display active items",
-    "executionTime": 0.562
-  },
-  {
-    "test": "ong bshould long persist its data",
-    "executionTime": 0.616
-  },
-  {
-    "test": "ong bshould long save edits on blur",
-    "executionTime": 30.487
-  },
-  {
-    "test": "ong bshould long allow me to display all items",
-    "executionTime": 0.602
-  },
-  {
-    "test": "ong bshould long highlight the currently applied filter",
-    "executionTime": 5.434
-  },
-  {
-    "test": "short should short allow me to add todo items",
-    "executionTime": 0.364
-  },
-  {
-    "test": "short should short clear text input field when an item is added",
-    "executionTime": 0.312
-  },
-  {
-    "test": "short should short append new items to the bottom of the list",
-    "executionTime": 0.353
-  },
-  {
-    "test": "short should short allow me to mark all items as completed",
-    "executionTime": 0.388
-  },
-  {
-    "test": "short should short allow me to clear the complete state of all items",
-    "executionTime": 0.415
-  },
-  {
-    "test": "complete all clong short checkbox should update state when items are completed / cleared",
-    "executionTime": 0.501
-  },
-  {
-    "test": "short should short allow me to mark items as complete",
-    "executionTime": 0.421
-  },
-  {
-    "test": "short should short allow me to un-mark items as complete",
-    "executionTime": 0.422
-  },
-  {
-    "test": "short should short allow me to edit an item",
-    "executionTime": 0.417
-  },
-  {
-    "test": "ong bshould long respect the back button",
-    "executionTime": 25.653
-  },
-  {
-    "test": "ong bshould long remove the item if an empty text string was entered",
-    "executionTime": 40.408
-  },
-  {
-    "test": "ong bshould long allow me to display completed items",
-    "executionTime": 40.557
-  },
-  {
-    "test": "short should short remove the item if an empty text string was entered",
-    "executionTime": 1.655
-  },
-  {
-    "test": "short should short hide other controls when editing",
-    "executionTime": 1.743
-  },
-  {
-    "test": "short should short save edits on blur",
-    "executionTime": 1.756
-  },
-  {
-    "test": "short should short display the current number of todo items",
-    "executionTime": 0.835
-  },
-  {
-    "test": "short should short cancel edits on escape",
-    "executionTime": 1.008
-  },
-  {
-    "test": "short should short display the correct text",
-    "executionTime": 1.046
-  },
-  {
-    "test": "short should short remove completed items when clicked",
-    "executionTime": 1.123
-  },
-  {
-    "test": "short should short be hidden when there are no items that are completed",
-    "executionTime": 1.127
-  },
-  {
-    "test": "short should short persist its data",
-    "executionTime": 1.419
-  },
-  {
-    "test": "short should short allow me to display active items",
-    "executionTime": 1.457
-  },
-  {
-    "test": "short should short respect the back button",
-    "executionTime": 1.8
-  },
-  {
-    "test": "short should short allow me to display completed items",
-    "executionTime": 1.248
-  },
-  {
-    "test": "short should short trim entered text",
-    "executionTime": 2.339
-  },
-  {
-    "test": "short should short allow me to display all items",
-    "executionTime": 1.731
-  },
-  {
-    "test": "short should short highlight the currently applied filter",
-    "executionTime": 1.415
-  },
-  {
-    "test": "should allow me to mark all items as completed",
-    "executionTime": 20.619
-  },
-  {
-    "test": "should clear text input field when an item is added",
-    "executionTime": 30.61
-  },
-  {
-    "test": "should allow me to clear the complete state of all items",
-    "executionTime": 10.533
-  },
-  {
-    "test": "should allow me to mark items as complete",
-    "executionTime": 0.481
-  },
-  {
-    "test": "should allow me to un-mark items as complete",
-    "executionTime": 0.544
-  },
-  {
-    "test": "should allow me to edit an item",
-    "executionTime": 0.571
-  },
-  {
-    "test": "should append new items to the bottom of the list",
-    "executionTime": 40.655
-  },
-  {
-    "test": "should allow me to add todo items",
-    "executionTime": 50.958
-  },
-  {
-    "test": "should trim entered text",
-    "executionTime": 10.579
-  },
-  {
-    "test": "complete all checkbox should update state when items are completed / cleared",
-    "executionTime": 30.646
-  },
-  {
-    "test": "should cancel edits on escape",
-    "executionTime": 0.494
-  },
-  {
-    "test": "should display the current number of todo items",
-    "executionTime": 0.396
-  },
-  {
-    "test": "should display the correct text",
-    "executionTime": 0.454
-  },
-  {
-    "test": "should remove completed items when clicked",
     "executionTime": 0.522
   },
   {
-    "test": "should be hidden when there are no items that are completed",
-    "executionTime": 0.519
+    "test": "long should ablong allow me to edit an item",
+    "executionTime": 0.517
   },
   {
-    "test": "should persist its data",
-    "executionTime": 0.526
+    "test": "long should ablong allow me to clear the complete state of all items",
+    "executionTime": 60.55
   },
   {
-    "test": "should allow me to display active items",
-    "executionTime": 0.51
+    "test": "long complete all ablong along checkbox should update state when items are completed / cleared",
+    "executionTime": 70.611
   },
   {
-    "test": "should save edits on blur",
-    "executionTime": 30.568
+    "test": "long should ablong allow me to mark items as complete",
+    "executionTime": 60.517
   },
   {
-    "test": "should respect the back button",
-    "executionTime": 25.689
-  },
-  {
-    "test": "should allow me to display all items",
-    "executionTime": 0.649
-  },
-  {
-    "test": "should hide other controls when editing",
-    "executionTime": 60.559
-  },
-  {
-    "test": "should highlight the currently applied filter",
-    "executionTime": 5.493
-  },
-  {
-    "test": "should remove the item if an empty text string was entered",
-    "executionTime": 40.528
-  },
-  {
-    "test": "should allow me to display completed items",
-    "executionTime": 40.561
-  },
-  {
-    "test": "long should abbzlong clear text input field when an item is added",
-    "executionTime": 40.319
-  },
-  {
-    "test": "long should abbzlong allow me to mark all items as completed",
-    "executionTime": 30.495
-  },
-  {
-    "test": "long should abbzlong append new items to the bottom of the list",
-    "executionTime": 45.476
-  },
-  {
-    "test": "long should abbzlong allow me to un-mark items as complete",
-    "executionTime": 0.485
-  },
-  {
-    "test": "long should abbzlong allow me to edit an item",
-    "executionTime": 0.481
-  },
-  {
-    "test": "llong should abbzlong allow me to add todo items",
-    "executionTime": 65.405
-  },
-  {
-    "test": "long should abbzlong save edits on blur",
+    "test": "long should ablong save edits on blur",
     "executionTime": 30.49
   },
   {
-    "test": "long should abbzlong allow me to clear the complete state of all items",
+    "test": "long should ablong trim entered text",
+    "executionTime": 10.53
+  },
+  {
+    "test": "long should ablong hide other controls when editing",
+    "executionTime": 60.549
+  },
+  {
+    "test": "long should ablong cancel edits on escape",
+    "executionTime": 0.67
+  },
+  {
+    "test": "long should ablong display the current number of todo items",
+    "executionTime": 0.628
+  },
+  {
+    "test": "long should ablong display the correct text",
+    "executionTime": 0.758
+  },
+  {
+    "test": "long should ablong remove completed items when clicked",
+    "executionTime": 0.799
+  },
+  {
+    "test": "long should ablong be hidden when there are no items that are completed",
+    "executionTime": 0.865
+  },
+  {
+    "test": "long should ablong remove the item if an empty text string was entered",
+    "executionTime": 40.567
+  },
+  {
+    "test": "long should ablong persist its data",
+    "executionTime": 1.318
+  },
+  {
+    "test": "long should ablong allow me to display active items",
+    "executionTime": 1.343
+  },
+  {
+    "test": "long should ablong allow me to display all items",
+    "executionTime": 0.692
+  },
+  {
+    "test": "long should ablong highlight the currently applied filter",
+    "executionTime": 5.575
+  },
+  {
+    "test": "long should ablong respect the back button",
+    "executionTime": 26.356
+  },
+  {
+    "test": "long should ablong allow me to display completed items",
+    "executionTime": 41.268
+  },
+  {
+    "test": "long should abblong clear text input field when an item is added",
+    "executionTime": 40.305
+  },
+  {
+    "test": "llong should abblong allow me to add todo items",
+    "executionTime": 65.343
+  },
+  {
+    "test": "long should abblong allow me to mark all items as completed",
+    "executionTime": 30.424
+  },
+  {
+    "test": "long should abblong append new items to the bottom of the list",
+    "executionTime": 45.524
+  },
+  {
+    "test": "long should abblong allow me to un-mark items as complete",
+    "executionTime": 0.595
+  },
+  {
+    "test": "long should abblong allow me to edit an item",
+    "executionTime": 0.562
+  },
+  {
+    "test": "long should abblong save edits on blur",
+    "executionTime": 30.495
+  },
+  {
+    "test": "long should abblong allow me to clear the complete state of all items",
     "executionTime": 60.47
   },
   {
-    "test": "long should abbzlong trim entered text",
-    "executionTime": 10.508
+    "test": "long should abblong trim entered text",
+    "executionTime": 10.447
   },
   {
-    "test": "long should abbzlong cancel edits on escape",
-    "executionTime": 0.48
+    "test": "long should abblong cancel edits on escape",
+    "executionTime": 0.401
   },
   {
-    "test": "long should abbzlong display the current number of todo items",
+    "test": "long should abblong display the current number of todo items",
+    "executionTime": 0.327
+  },
+  {
+    "test": "long should abblong display the correct text",
+    "executionTime": 0.393
+  },
+  {
+    "test": "long should abblong allow me to mark items as complete",
+    "executionTime": 60.435
+  },
+  {
+    "test": "long should abblong hide other controls when editing",
+    "executionTime": 60.547
+  },
+  {
+    "test": "long should abblong remove the item if an empty text string was entered",
+    "executionTime": 40.432
+  },
+  {
+    "test": "long should abblong remove completed items when clicked",
+    "executionTime": 1.431
+  },
+  {
+    "test": "long should abblong be hidden when there are no items that are completed",
+    "executionTime": 1.442
+  },
+  {
+    "test": "long should abblong allow me to display active items",
+    "executionTime": 1.47
+  },
+  {
+    "test": "long should abblong persist its data",
+    "executionTime": 1.572
+  },
+  {
+    "test": "long should abblong allow me to display all items",
+    "executionTime": 1.135
+  },
+  {
+    "test": "long should abblong highlight the currently applied filter",
+    "executionTime": 5.987
+  },
+  {
+    "test": "long should abblong respect the back button",
+    "executionTime": 26.125
+  },
+  {
+    "test": "long should abblong allow me to display completed items",
+    "executionTime": 41.14
+  },
+  {
+    "test": "ong bshould long clear text input field when an item is added",
+    "executionTime": 40.377
+  },
+  {
+    "test": "ong bshould long append new items to the bottom of the list",
+    "executionTime": 45.449
+  },
+  {
+    "test": "ong bshould long allow me to mark all items as completed",
+    "executionTime": 30.519
+  },
+  {
+    "test": "ong bshould long allow me to add todo items",
+    "executionTime": 70.58
+  },
+  {
+    "test": "ong bshould long allow me to un-mark items as complete",
+    "executionTime": 0.597
+  },
+  {
+    "test": "ong bshould long allow me to edit an item",
+    "executionTime": 0.486
+  },
+  {
+    "test": "ong bshould long allow me to clear the complete state of all items",
+    "executionTime": 60.566
+  },
+  {
+    "test": "ong bshould long allow me to mark items as complete",
+    "executionTime": 60.632
+  },
+  {
+    "test": "ong bshould long hide other controls when editing",
+    "executionTime": 60.496
+  },
+  {
+    "test": "ong bshould long save edits on blur",
+    "executionTime": 30.497
+  },
+  {
+    "test": "long complete all blong checkbox should update state when items are completed / cleared",
+    "executionTime": 70.787
+  },
+  {
+    "test": "ong bshould long trim entered text",
+    "executionTime": 10.477
+  },
+  {
+    "test": "ong bshould long remove the item if an empty text string was entered",
+    "executionTime": 40.484
+  },
+  {
+    "test": "ong bshould long display the current number of todo items",
+    "executionTime": 1.078
+  },
+  {
+    "test": "ong bshould long display the correct text",
+    "executionTime": 1.267
+  },
+  {
+    "test": "ong bshould long remove completed items when clicked",
+    "executionTime": 1.398
+  },
+  {
+    "test": "ong bshould long cancel edits on escape",
+    "executionTime": 1.48
+  },
+  {
+    "test": "ong bshould long be hidden when there are no items that are completed",
+    "executionTime": 0.943
+  },
+  {
+    "test": "ong bshould long persist its data",
+    "executionTime": 1.061
+  },
+  {
+    "test": "ong bshould long allow me to display active items",
+    "executionTime": 1.105
+  },
+  {
+    "test": "ong bshould long allow me to display all items",
+    "executionTime": 0.818
+  },
+  {
+    "test": "short should short allow me to add todo items",
+    "executionTime": 0.317
+  },
+  {
+    "test": "short should short clear text input field when an item is added",
+    "executionTime": 0.322
+  },
+  {
+    "test": "short should short append new items to the bottom of the list",
+    "executionTime": 0.365
+  },
+  {
+    "test": "short should short allow me to mark all items as completed",
+    "executionTime": 0.376
+  },
+  {
+    "test": "short should short allow me to clear the complete state of all items",
+    "executionTime": 0.443
+  },
+  {
+    "test": "complete all clong short checkbox should update state when items are completed / cleared",
+    "executionTime": 0.517
+  },
+  {
+    "test": "short should short allow me to mark items as complete",
+    "executionTime": 0.376
+  },
+  {
+    "test": "short should short allow me to un-mark items as complete",
+    "executionTime": 0.409
+  },
+  {
+    "test": "short should short allow me to edit an item",
+    "executionTime": 0.407
+  },
+  {
+    "test": "short should short hide other controls when editing",
+    "executionTime": 0.389
+  },
+  {
+    "test": "ong bshould long highlight the currently applied filter",
+    "executionTime": 5.585
+  },
+  {
+    "test": "ong bshould long respect the back button",
+    "executionTime": 26.048
+  },
+  {
+    "test": "ong bshould long allow me to display completed items",
+    "executionTime": 40.972
+  },
+  {
+    "test": "short should short cancel edits on escape",
+    "executionTime": 2.523
+  },
+  {
+    "test": "short should short save edits on blur",
+    "executionTime": 2.389
+  },
+  {
+    "test": "short should short remove the item if an empty text string was entered",
+    "executionTime": 2.492
+  },
+  {
+    "test": "short should short trim entered text",
+    "executionTime": 2.502
+  },
+  {
+    "test": "short should short display the current number of todo items",
+    "executionTime": 1.066
+  },
+  {
+    "test": "short should short remove completed items when clicked",
+    "executionTime": 0.989
+  },
+  {
+    "test": "short should short display the correct text",
+    "executionTime": 1.266
+  },
+  {
+    "test": "short should short be hidden when there are no items that are completed",
+    "executionTime": 1.344
+  },
+  {
+    "test": "short should short allow me to display active items",
+    "executionTime": 1.342
+  },
+  {
+    "test": "short should short persist its data",
+    "executionTime": 1.395
+  },
+  {
+    "test": "short should short respect the back button",
+    "executionTime": 1.494
+  },
+  {
+    "test": "short should short allow me to display completed items",
+    "executionTime": 1.292
+  },
+  {
+    "test": "short should short highlight the currently applied filter",
+    "executionTime": 1.189
+  },
+  {
+    "test": "short should short allow me to display all items",
+    "executionTime": 1.362
+  },
+  {
+    "test": "should allow me to mark all items as completed",
+    "executionTime": 20.557
+  },
+  {
+    "test": "should clear text input field when an item is added",
+    "executionTime": 30.785
+  },
+  {
+    "test": "should allow me to clear the complete state of all items",
+    "executionTime": 10.653
+  },
+  {
+    "test": "should allow me to mark items as complete",
+    "executionTime": 0.506
+  },
+  {
+    "test": "should append new items to the bottom of the list",
+    "executionTime": 40.512
+  },
+  {
+    "test": "should allow me to add todo items",
+    "executionTime": 50.794
+  },
+  {
+    "test": "complete all checkbox should update state when items are completed / cleared",
+    "executionTime": 30.759
+  },
+  {
+    "test": "should allow me to un-mark items as complete",
+    "executionTime": 1.681
+  },
+  {
+    "test": "should allow me to edit an item",
+    "executionTime": 1.783
+  },
+  {
+    "test": "should trim entered text",
+    "executionTime": 10.562
+  },
+  {
+    "test": "should cancel edits on escape",
+    "executionTime": 0.39
+  },
+  {
+    "test": "should display the current number of todo items",
+    "executionTime": 0.309
+  },
+  {
+    "test": "should display the correct text",
     "executionTime": 0.371
   },
   {
-    "test": "long should abbzlong display the correct text",
-    "executionTime": 0.455
+    "test": "should remove completed items when clicked",
+    "executionTime": 0.416
   },
   {
-    "test": "long should abbzlong remove completed items when clicked",
-    "executionTime": 0.487
+    "test": "should be hidden when there are no items that are completed",
+    "executionTime": 0.418
   },
   {
-    "test": "long should abbzlong be hidden when there are no items that are completed",
-    "executionTime": 0.502
+    "test": "should persist its data",
+    "executionTime": 0.423
   },
   {
-    "test": "long should abbzlong persist its data",
-    "executionTime": 0.6
+    "test": "should allow me to display active items",
+    "executionTime": 0.427
+  },
+  {
+    "test": "should save edits on blur",
+    "executionTime": 31.538
+  },
+  {
+    "test": "should respect the back button",
+    "executionTime": 25.555
+  },
+  {
+    "test": "should allow me to display all items",
+    "executionTime": 0.501
+  },
+  {
+    "test": "should remove the item if an empty text string was entered",
+    "executionTime": 40.574
+  },
+  {
+    "test": "should highlight the currently applied filter",
+    "executionTime": 5.426
+  },
+  {
+    "test": "should hide other controls when editing",
+    "executionTime": 61.644
+  },
+  {
+    "test": "should allow me to display completed items",
+    "executionTime": 40.492
+  },
+  {
+    "test": "long should abbzlong clear text input field when an item is added",
+    "executionTime": 40.287
+  },
+  {
+    "test": "long should abbzlong append new items to the bottom of the list",
+    "executionTime": 45.405
+  },
+  {
+    "test": "llong should abbzlong allow me to add todo items",
+    "executionTime": 65.338
+  },
+  {
+    "test": "long should abbzlong allow me to un-mark items as complete",
+    "executionTime": 1.393
+  },
+  {
+    "test": "long should abbzlong allow me to edit an item",
+    "executionTime": 0.505
+  },
+  {
+    "test": "long should abbzlong allow me to mark all items as completed",
+    "executionTime": 31.359
   },
   {
     "test": "long should abbzlong allow me to mark items as complete",
-    "executionTime": 60.597
+    "executionTime": 61.306
   },
   {
-    "test": "long should abbzlong allow me to display active items",
-    "executionTime": 0.691
+    "test": "long should abbzlong allow me to clear the complete state of all items",
+    "executionTime": 61.34
+  },
+  {
+    "test": "long should abbzlong save edits on blur",
+    "executionTime": 30.59
   },
   {
     "test": "long should abbzlong hide other controls when editing",
-    "executionTime": 60.455
+    "executionTime": 60.454
+  },
+  {
+    "test": "long should abbzlong cancel edits on escape",
+    "executionTime": 0.591
+  },
+  {
+    "test": "long should abbzlong display the current number of todo items",
+    "executionTime": 0.505
+  },
+  {
+    "test": "long should abbzlong display the correct text",
+    "executionTime": 0.577
+  },
+  {
+    "test": "long should abbzlong remove completed items when clicked",
+    "executionTime": 0.663
+  },
+  {
+    "test": "long should abbzlong be hidden when there are no items that are completed",
+    "executionTime": 0.574
+  },
+  {
+    "test": "long should abbzlong persist its data",
+    "executionTime": 0.656
+  },
+  {
+    "test": "long should abbzlong allow me to display active items",
+    "executionTime": 0.572
+  },
+  {
+    "test": "long should abbzlong trim entered text",
+    "executionTime": 10.577
   },
   {
     "test": "long should abbzlong allow me to display all items",
-    "executionTime": 0.637
+    "executionTime": 0.588
   },
   {
     "test": "long should abbzlong highlight the currently applied filter",
-    "executionTime": 5.542
+    "executionTime": 5.493
   },
   {
     "test": "long should abbzlong respect the back button",
-    "executionTime": 25.849
+    "executionTime": 25.734
   },
   {
     "test": "long should abbzlong remove the item if an empty text string was entered",
-    "executionTime": 40.5
+    "executionTime": 40.562
   },
   {
     "test": "long should abbzlong allow me to display completed items",
-    "executionTime": 40.511
+    "executionTime": 40.581
   }
 ]
