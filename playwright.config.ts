@@ -37,7 +37,6 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-      repeatEach: 3
     }
 
     /* Test against mobile viewports. */

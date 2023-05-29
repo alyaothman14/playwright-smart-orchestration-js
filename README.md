@@ -16,22 +16,16 @@ To tackle this problem, I have implemented a smart orchestration mechanism that 
 
 3. In Github action workflow, run measure execution if any changes are detected in the /tests folder and update the test_execution_results.json. In the workflow you will see the test run with smart orchestration vs letting playwright run the testcases
 
-## Repo Details
-
-The use of smart orchestration could be found in the github workflow
-- Improved load balancing and even distribution of test execution time.
-- Implemented measure execution to collect runtime data for each test.
-- Added smart orchestration to allocate slow tests efficiently across workers.
-
 
 ## Test Results
-To compare between using orchestration and letting PW run I have done the following
-- Used the testcases from todo MVC and created a copy of them with different name
-- Added random wait in testcases to simulate slow running test
+To provide a comprehensive comparison, I designed a set of test cases using Playwright's default initialization for the Todo MVC application. These test cases were duplicated with different spec names to demonstrate Playwright's alphabetical test execution behavior. To further emulate real-world scenarios, I incorporated wait times ranging from 5 to 60 seconds in select tests, representing various levels of test case speed.
+
+In addition, I configured two distinct jobs: one utilizing the smart orchestration feature and another running the tests using PW default behaviour. This setup allows for a clear examination of the benefits and differences between the two execution approaches.
 
 Using 4 shards we have saved 1 min and 2 seconds with equal distribution across the shards, all shards running at around 4 mins while for pw there is one shard that takes 1m 45sec and another than takes 5m 22s
 
 Using 3 shards
+The test cases were evenly distributed in the smart_orchestration job compared to the default job where Playwright determined the execution order. Furthermore, a total of 1 minute and 36 seconds were saved in the overall build time.
 
 ##GOTCHA
 Each testcases MUST have a unique title otherwise -grep option will grep all matching testcases
