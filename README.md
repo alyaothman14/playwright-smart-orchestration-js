@@ -22,12 +22,21 @@ To provide a comprehensive comparison, I designed a set of test cases using Play
 
 In addition, I configured two distinct jobs: one utilizing the smart orchestration feature and another running the tests using PW default behaviour. This setup allows for a clear examination of the benefits and differences between the two execution approaches.
 
-Using 4 shards we have saved 1 min and 2 seconds with equal distribution across the shards, all shards running at around 4 mins while for pw there is one shard that takes 1m 45sec and another than takes 5m 22s
+**Using 4 shards**
+we have saved 1 min and 2 seconds with equal distribution across the shards, all shards running at around 4 mins while for pw there is one shard that takes 1m 45sec and another than takes 5m 22s
+![7Screenshot at May 29 16-07-19](https://github.com/alyaothman14/playwright-smart-orchestration-js/assets/87079479/185aa7a6-5bbe-4282-bf23-c89186fc2eb2)
 
-Using 3 shards
+
+**Using 3 shards**
 The test cases were evenly distributed in the smart_orchestration job compared to the default job where Playwright determined the execution order. Furthermore, a total of 1 minute and 36 seconds were saved in the overall build time.
+![6Screenshot at May 29 16-05-11](https://github.com/alyaothman14/playwright-smart-orchestration-js/assets/87079479/55696147-6521-4c90-8652-8db8931490be)
 
-##GOTCHA
+**Using 7 shards with repeat each 3**
+
+![9Screenshot at May 29 16-51-49](https://github.com/alyaothman14/playwright-smart-orchestration-js/assets/87079479/f6625201-6308-4a1a-84c6-688a87699503)
+
+## Areas of Improvement
+
 Each testcases MUST have a unique title otherwise -grep option will grep all matching testcases
 
 ## See in action
@@ -43,7 +52,4 @@ To utilize this implementation of Playwright Smart Orchestration, follow these s
 
 Contributions to this project are welcome! If you have any suggestions, bug reports, or feature requests, please create an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
