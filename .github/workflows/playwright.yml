@@ -42,7 +42,7 @@ jobs:
     - name: Run Playwright tests
       if: steps.folder_changes.outputs.changed == 'true'
       run: |
-        MEASURE_EXECUTION_TIME=true npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
+        MEASURE_EXECUTION_TIME=true npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }} --repeatEach=0
     - name: Upload JSON File
       if: steps.folder_changes.outputs.changed == 'true'
       uses: actions/upload-artifact@v2
